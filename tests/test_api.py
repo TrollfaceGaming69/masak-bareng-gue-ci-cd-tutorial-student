@@ -150,6 +150,9 @@ class TestApiStats:
 
 # ── Recipe detail page ────────────────────────────────────────────────────────
 
+
+#jawanigga696969
+
 class TestRecipeDetailPage:
     def test_valid_id_returns_200(self):
         recipe_id = client.get("/api/random").json()["id"]
